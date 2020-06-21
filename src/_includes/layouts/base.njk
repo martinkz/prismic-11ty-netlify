@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <meta name="description" content="">
+
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="">
+        <meta name="twitter:card" content="summary_large_image">
+        
+        <link href="/assets/styles/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        {{ content | safe }}
+
+        <h2>'page' object provided by 11ty</h2>
+
+        {{ page | JSONstringify | safe }}
+    </body>
+</html>

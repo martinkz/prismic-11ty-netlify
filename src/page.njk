@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+pagination:
+    data: prismicData.page
+    size: 1
+    alias: the_page
+permalink: "{{ the_page.uid | slug }}/"
+---
+
+<h1>{{ the_page.uid }}</h1>
+<p>Current Prismic document data dump:</p>
+
+{{ the_page | JSONstringify | safe }}

@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+---
+
+{% set home = prismicData["homepage"][0].data %}
+
+{{ home.title | richText | safe }}
+
+<p>Full Prismic data dump:</p>
+{{ prismicData | JSONstringify | safe }}
+

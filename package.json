@@ -1,0 +1,25 @@
+{
+	"name": "11ty-test",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "eleventy",
+		"dev": "eleventy --serve"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/martinkz/11ty-test.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog/issues"
+	},
+	"author": "Martin Kozhuharov",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.10.0",
+		"dotenv": "^8.2.0"
+	},
+	"dependencies": {
+		"prismic-dom": "^2.1.0",
+		"prismic-javascript": "^2.1.5"
+	}
+}
