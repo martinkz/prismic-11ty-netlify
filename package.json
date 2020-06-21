@@ -1,5 +1,5 @@
 {
-	"name": "11ty-test",
+	"name": "primsic-11ty-netlify",
 	"version": "0.1.0",
 	"scripts": {
 		"build": "eleventy",
@@ -7,10 +7,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/martinkz/11ty-test.git"
+		"url": "git+https://github.com/martinkz/prismic-11ty-netlify"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/reubenlillie/eleventy-dot-js-blog/issues"
+		"url": "https://github.com/martinkz/prismic-11ty-netlify/issues"
 	},
 	"author": "Martin Kozhuharov",
 	"license": "ISC",
