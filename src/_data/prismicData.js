@@ -27,6 +27,8 @@ async function getPrismicData(ref) {
 		);
 }
 
+// Organises the Prismic data by document type so you can more easily loop through e.g. pages, posts, menu items, etc.
+// You can generate 11ty collections based on these as well
 function bucketByType(data) {
 	let dataByType = {};
 	for (let item of data) {
